@@ -1,3 +1,42 @@
+/*=============================================================
+Project: GPA vs Sleep Analysis
+Author: Saidakmal Saidkarimov
+Database: Snowflake
+Language: SQL
+
+Description:
+This project analyzes the relationship between students'
+sleep habits and academic performance using SQL in Snowflake.
+The analysis includes data quality checks, exploratory data
+analysis (EDA), aggregate functions, window functions,
+CTEs, and business-oriented insights.
+
+---------------------------------------------------------------
+HOW TO RUN THIS PROJECT
+
+1. Create a Snowflake account (or use an existing one).
+
+2. Create a database and schema (optional names):
+      Database: STUDENT_ANALYSIS
+      Schema: ANALYTICS
+
+3. Upload the dataset:
+      college_sleep_and_gpa.csv
+
+4. Import the CSV into a table named:
+      ANALYTICS
+
+5. Execute the queries in this file from top to bottom.
+
+Dataset:
+college_sleep_and_gpa.csv
+
+Repository:
+Python notebook, Power BI dashboard, dataset, and SQL analysis
+are included in this GitHub repository.
+
+=============================================================*/
+
 SELECT *
 FROM analytics
 LIMIT 10;
